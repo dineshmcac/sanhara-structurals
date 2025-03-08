@@ -10,6 +10,41 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script defer src="js/scripts.js"></script>
     <title>Construction Company</title>
+	<style>
+        .video-container {
+            width: 100%;
+            overflow-x: auto; /* Enables horizontal scrolling */
+            white-space: nowrap; /* Prevents wrapping */
+            display: flex; /* Aligns videos in a row */
+            gap: 10px; /* Space between videos */
+            padding: 10px;
+            border: 2px solid #ccc;
+            scrollbar-width: thin; /* For Firefox */
+            scrollbar-color: gray transparent;
+        }
+
+        .video-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .video-container::-webkit-scrollbar-thumb {
+            background: gray;
+            border-radius: 5px;
+        }
+
+        .video {
+            width: 300px; /* Adjust as needed */
+            height: 200px;
+            flex: 0 0 auto; /* Keeps each video in place */
+        }
+    </style>
+	<style>
+        iframe {
+            width: 50%;
+            height: 200px; /* Keep full form height to enable scrolling */
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,7 +60,7 @@
                     <a href="#"><i class="fa-brands fa-behance"></i></a>
                     <a href="#"><i class="fa-solid fa-basketball"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>-->
-                    <a href="#"><img src="Images/youtube-logotype.png" alt=""></i></a>
+                    <a href="https://www.youtube.com/@dineshc9608/community"><img src="Images/youtube-logotype.png" alt=""></i></a>
                 </div>
             </div>
         </header>
@@ -41,8 +76,8 @@
                 <label for="menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="menu">
                 <nav>
-                    <a href="#">Home</a>
-                   <!-- <a href="#">Page</a>
+                    <!--<a href="#">Home</a>
+                    <a href="#">Page</a>
                     <a href="#">Blog</a>
                     <a href="#">Portofolio</a>
                     <a href="#">Components</a>
@@ -54,15 +89,16 @@
         <article>
         <div class="container">
             <h1> We are Certified Engineers</h1>
-            <h2>Sanharastructurals Construction services<br>
-            <span>Creative AND professional</span></h2>
+            <h1>Sanhara Dtructurals Construction services<br>
+            <span>Creative AND professional</span></h1>
             <p>We are Sanhar Structurals - in Construction Business for many years with vast experience in design, construction work, flooring, plumbing, electricity, gas, painting, plasterwork, general carpentry, kitchen design and construction, and everything needed for the perfect finish of your home.</p>
-            <a href="#">Show More</a>
-            <a href="#">view project</a>
+            <!--<a href="#">Show More</a>
+            <a href="#">view project</a>-->
+		</div>
         </div>
         </article>
     </section>
-    <section id="sec-1">
+    <!--<section id="sec-1">
         <div class="container">
             <article>
                 <h1>Welcome to our company</h1>
@@ -72,44 +108,58 @@
             </article>
             <aside><img src="Images/img1.png" alt="man"></aside>
         </div>
-    </section>
+    </section>-->
     <section id="sec-2">
         <div class="container">
-			<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-			</iframe>
-            <h1> why choose us?</h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus, voluptatibus perferendis voluptates quidem magni illo odit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita tenetur? Pariatur itaque eveniet nam possimus omnis veniam cupiditate provident.</P>
+			<h1> Our Completed Project</h1>
+			<div class="video-container">
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<!-- Add more videos as needed -->
+		</div>
+             <!--<h1> why choose us?</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus, voluptatibus perferendis voluptates quidem magni illo odit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita tenetur? Pariatur itaque eveniet nam possimus omnis veniam cupiditate provident.</P>-->
+			<h1> why choose us?</h1>
             <article>
                 <figure>
                     <div><img src="Images/ico1.png" alt=""></div>
                     <div class="cont">
                         <h2>we deliver quality</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>
+                        <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>-->
                     </div>
                 </figure>
                 <figure>
                     <div><img src="Images/ico2.png" alt=""></div>
                     <div class="cont">
                         <h2>Always on time</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>
+                        <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>-->
                     </div>
                 </figure>
                 <figure>
                     <div><img src="Images/ico3.png" alt=""></div>
                     <div class="cont">
                         <h2>we are passionate</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>
+                        <!--<p>Lorem ipfilsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>-->
                     </div>
                 </figure>
                 <figure>
                     <div><img src="Images/ico4.png" alt=""></div>
                     <div class="cont">
                         <h2>proffesional services</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>
+                        <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste ad illum, ducimus asperiores necessitatibus reprehenderit?</p>-->
                     </div>
-                </figure>
+                </figure>fil
             </article>
+			<h1>Fill Out Our Form</h1>
         </div>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVVIgHuulGHsF1iq2t5DaGn8Or7p4gwhqqIyaINyrbeAA3CA/viewform?usp=sharing">
+			Loading…
+			</iframe>
     </section>
     <section id="sec-3">
         <div class="container">
@@ -121,8 +171,8 @@
                         <h5 class="caption">Construction Management</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
-                    <a href="#">Show More</a>
+                        <p>We provide expert construction management to ensure projects are completed on time, within budget, and to the highest quality standards. Our team oversees planning, coordination, and execution, managing contractors, resources, and compliance. From residential to commercial projects, we streamline the process for a seamless and efficient build. </p>
+                    <!--<a href="#">Show More</a>-->
                     </div>
                 </div>
                 <div class="card border-0">
@@ -131,18 +181,18 @@
                         <h5 class="caption">Renovation</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
-                    <a href="#">Show More</a>
+                        <p>We specialize in high-quality renovations, transforming homes and commercial spaces with expert craftsmanship. Whether it's a full remodel or minor upgrades, we enhance functionality, aesthetics, and value. From kitchens and bathrooms to offices and storefronts, we bring your vision to life with precision and professionalism.</p>
+					<!--<a href="#">Show More</a>-->
                     </div>
                 </div>
                 <div class="card border-0">
                     <div>
                         <img src="Images/card3.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Architectuure</h5>
+                        <h5 class="caption">Architecture</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
-                    <a href="#">Show More</a>
+                        <p>We design innovative, functional, and aesthetically striking spaces tailored to your needs. Our expert architects blend creativity with structural precision to create homes, commercial buildings, and renovations that enhance both form and function. From concept to completion, we bring your vision to life with sustainable and modern design solutions.</p>
+                    <!--<a href="#">Show More</a>-->
                     </div>
                 </div>
             </div>
@@ -151,16 +201,16 @@
     <section id="sec-4">
         <div class="container">
             <h1>made with love</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis accusamus autem tenetur vero, facilis omnis, ullam quis mollitia deleniti ea similique laboriosam numquam ab dignissimos! Ducimus, eveniet at. A debitis eum tenetur dolor magni.</p>
-            <div class="filter">
+            <p>At Sanhara Structurals, we believe construction is more than just building structures—it's about creating spaces with passion, precision, and care. Every project we take on is built with love, dedication, and the highest quality craftsmanship to bring your vision to life. Whether it's a home, office, or renovation, we put our heart into every detail to ensure durability, beauty, and satisfaction.Because when it's made with love, it lasts a lifetime.</p>
+            <!--<div class="filter">
                 <a href="#">Show all</a>
                 <a href="#">buildings</a>
                 <a href="#">interior design</a>
                 <a href="#">isolation</a>
                 <a href="#">plumping</a>
-            </div>
+            </div>-->
             <div class="cont">
-                <img class="wow animated fadeIn slow" src="Images/gallery1.jpg" alt="pic">
+                <img class="wow animated fadeIn slow" src="Images/house.jpeg" alt="pic">
                 <aside>
                     <img src="Images/gallery3.jpg" alt="pic" class="wow animated flipInX delay-1s">
                     <img src="Images/gallery2.jpg" alt="pic" class="wow animated flipInX delay-1s slower">
@@ -173,36 +223,48 @@
     <section id="sec-5">
         <div class="container">
             <h1>customer reviews</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis accusamus autem tenetur vero, facilis omnis, ullam quis mollitia deleniti ea similique laboriosam numquam ab dignissimos! Ducimus, eveniet at. A debitis eum tenetur dolor magni.</p>
+			
+			<div class="video-container">
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+			<!-- Add more videos as needed -->
+		</div>
+			<h1> Our Completed Project</h1>
+            <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis accusamus autem tenetur vero, facilis omnis, ullam quis mollitia deleniti ea similique laboriosam numquam ab dignissimos! Ducimus, eveniet at. A debitis eum tenetur dolor magni.</p>-->
             <div class="cont">
                 <article class="quoteblock">
                     <div class="quotetxt arrow">
                         <p><img src="Images/blockquote2.png" alt="quote mark"></p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum id inventore facilis laboriosam est possimus explicabo quis ipsa, perferendis nam ratiendus neque earum iure maxime non soluta voluptates deleniti provident! Commodi, eveniet?</p>
+                        <p>We hired Sanhara Structurals for a home renovation, and they exceeded our expectations! The team was professional, timely, and delivered high-quality work. Our space looks amazing, and we highly recommend their services!</p>
                     </div>
                     <figure>
-                        <img class="customer" src="Images/cust1.png" alt="customer1">
-                        <figcaption>John smith</figcaption>
+                        <img class="customer" src="Images/cus1.jpg" alt="customer1">
+                        <figcaption>Dinesh</figcaption>
                     </figure>
                 </article>
                 <article class="quoteblock">
                     <div class="quotetxt arrow">
                         <p><img src="Images/blockquote1.png" alt="quote mark"></p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum id inventore facilis laboriosam est possimus explicabo quis ipsa, perferendis nam ratiendus neque earum iure maxime non soluta voluptates deleniti provident! Commodi, eveniet?</p>
+                        <p>Sanhara Structurals handled our office renovation flawlessly. They stayed on schedule, maintained clear communication, and delivered outstanding craftsmanship. We’re extremely satisfied with the results!</p>
                     </div>
                     <figure>
-                        <img class="customer" src="Images/cust1.png" alt="customer1">
-                        <figcaption>John smith</figcaption>
+                        <img class="customer" src="Images/cus2.png" alt="customer1">
+                        <figcaption>Padhma Priya</figcaption>
                     </figure>
                 </article>
                 <article class="quoteblock">
                     <div class="quotetxt arrow">
                         <p><img src="Images/blockquote2.png" alt="quote mark"></p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum id inventore facilis laboriosam est possimus explicabo quis ipsa, perferendis nam ratiendus neque earum iure maxime non soluta voluptates deleniti provident! Commodi, eveniet?</p>
+                        <p>We hired Sanhara Structurals for a kitchen remodel, and the transformation was incredible! The team paid attention to every detail and ensured a smooth process from start to finish. Highly recommended!</p>
                     </div>
                     <figure>
                         <img class="customer" src="Images/cust1.png" alt="customer1">
-                        <figcaption>John smith</figcaption>
+                        <figcaption>John</figcaption>
                     </figure>
                 </article>
             </div>
@@ -228,17 +290,17 @@
             <div class="about">
                 <h1>About Company</h1>
                 <h2>
-                    CONSTRUCTION 
-                    <p>Lorem ipsum dolor sit amit.</p>
+                    Sanhara Structurals 
+                    <p>We bring all of the building trades together to give life to your dream home...</p>
                 </h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus eius nisi repudiandae ipsam pariatur, quos perspiciatis eaque officia rerum odio modi sed fugiat mollitia? Rerum, architecto obcaecati!</p>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>  
+                <p>We are Sanhar Structurals - in Construction Business for many years with vast experience in design, construction work, flooring, plumbing, electricity, gas, painting, plasterwork, general carpentry, kitchen design and construction, and everything needed for the perfect finish of your home.</p>
+                <a href="https://www.facebook.com/dinesh.cool.777"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/dinesh.cool.777"><i class="fab fa-twitter"></i></i></a>
+                <a href="https://www.linkedin.com/in/dinesh-c-34aa8217/"><i class="fab fa-linkedin-in"></i></a>  
                 <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.youtube.com/@dineshc9608"><i class="fab fa-youtube-square"></i></a>
             </div>
-            <div class="links">
+            <!--<div class="links">
                 <h1>Explor links</h1>
                 <a href="#">Our services</a>
                 <a href="#">Meet our team</a>
@@ -256,19 +318,19 @@
                 <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
                 <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
                 <a href="#"><span>20<br>AUG</span>Lorem ipsum dolor sit stiae tempora</a>
-            </div>
+            </div>-->
             <div class="contact">
                 <h1>Contact us</h1>
-                <p>123 New Line, London UK</p>
+                <p>Porgai Avenue</p>
                 <p>Hello@contact-us.com</p>
-                <p>+44 00 00 1234<br>+44 00 00 1234</p>
+                <p>9840837185<br>+44 00 00 1234</p>
 
             </div>
         </div>
     </section>
     <section id="sec-7">
         <div class="container">
-            <p>Copyright @2022 | Designed by <span>Web Technologies Team</span></p>
+            <p>Copyright @2025 | Designed by <span>HoK Technologies Team</span></p>
         </div>
     </section>
 
